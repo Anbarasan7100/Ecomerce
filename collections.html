@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link rel="stylesheet" href="/Ecomerce/style.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<div>
+    <!--Navigation bar-->
+    <nav class="navbar">
+        <h1>Abyazh</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contactus.html">Contact us</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-duotone fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <nav class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contactus.html">Contact us</a></p>
+        </div>
+    </nav>
+    <div class="collection">
+        <form class="collection-searchbar">
+            <input type="text" id="search"
+            placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="product-box">
+                <img src="/Ecomerce/images/White shirt.jpg" alt="" width="250px" height="250px">
+                <p>White shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="/Ecomerce/images/Short Skirt Blue.jpg" alt="" width="250px" height="250px">
+                <p>Short Skirt Blue</p>
+            </div>
+            <div class="product-box">
+                <img src="/Ecomerce/images/Short Skirt Lavender.jpg" alt="" width="250px" height="250px">
+                <p>Short Skirt Lavender</p>
+            </div>
+            <div class="product-box">
+                <img src="/Ecomerce/images/Pink Shirt.jpg" alt="" width="250px" height="250px">
+                <p>Pink Shirt</p>
+            </div>
+            <div class="product-box">
+                <img src="/Ecomerce/images/Umberla Top Blue.jpg" alt="" width="250px" height="250px">
+                <p>Umberla Top Blue</p>
+            </div>
+            <div class="product-box">
+                <img src="/Ecomerce/images/Umberla Top Red.jpg" alt="" width="250px" height="250px">
+                <p>Umberla Top Red</p>
+            </div>
+            <div class="product-box">
+                <img src="/Ecomerce/images/Umberla Top Navy Blue.jpg" alt="" width="250px" height="250px">
+                <p>Umberla Top Navy Blue</p>
+            </div>
+            <div class="product-box">
+                <img src="/Ecomerce/images/Kurta Yellow.jpg" alt="" width="250px" height="250px">
+                <p>Kurta Yellow</p>
+            </div>
+            <div class="product-box">
+                <img src="/Ecomerce/images/Umberla Top Pink.jpg" alt="" width="250px" height="250px">
+                <p>Umberla Top Pink</p>
+            </div>
+            <div class="product-box">
+                <img src="/Ecomerce/images/Kurta Brown.jpg" alt="" width="250px" height="250px">
+                <p>Kurta Brown</p>
+            </div>
+            <div class="product-box">
+                <img src="/Ecomerce/images/Black Shirt.jpg" alt="" width="250px" height="250px">
+                <p>Black Shirt</p>
+            </div>
+        </div>
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <h2>Abyazh</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ea!</p>
+            <div class="footer-icon">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <p>@2025 abyazh.com</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
